@@ -1,121 +1,33 @@
 [
     {
-    "pagename":"a",
+         "pagename":"faceBook@crc",
+    "pageurl":"https://www.facebook.com/ufcrc",
     "metadata":"Whether you are a global titan, a start-up, or anything in between, there are over 50,000 reasons why you need to recruit at the University of Florida.",
     "keyword":"Hire UF Gators, hireufgators, University of Florida, recruiting, recruit, students, employers, recruiters"
    
   },
   {
-    "pagename":"hireufgators",
-    "metadata":"Whether you are a global titan, a start-up, or anything in between, there are over 50,000 reasons why you need to recruit at the University of Florida.",
-    "keyword":"Hire UF Gators, hireufgators, University of Florida, recruiting, recruit, students, employers, recruiters"
-   
-  },
-  {
-    "pagename":"whyuf",
-    "metadata":"The University of Florida enrolls more than 50,000 students annually into 100 undergraduate and 200 graduate programs in over 16 colleges and professional degree programs.",
-    "keyword":"Why UF, whyuf, University of Florida students, UF students, recruit, recruiting, services, candidates, diversity, information, employers"
-    
-  },
-  {
-    "pagename":"Adrian and Tarun at CRC",
-    "metadata":"Career Showcase proves year after year to be the leading campus career fair, with over 7,000 students from diverse majors attending.",
-    "keyword":"Career Showcase, careershowcase, showcase, Career Fair, Recruiting, technical, non-technical, engineering, business, liberal arts, alumni, sponsor, recruit, register, sponsor, dates, career fairs"
-    
-  },
-  {
-    "pagename":"register",
+       "pagename":"twitter@crc",
+    "pageurl":"https://twitter.com/uf_crc",
     "metadata":"Career Showcase  is the largest event of its kind in the Southeast. Register today to secure your spot in the one of the most premier campus career fairs in the country.",
     "keyword":"register, Career Showcase, Career Fair, Recruiting, technical, non-technical, engineering, register, non-profit, recruit, cost, Showcase"
     
   },
   {
-    "pagename":"becomeasponsor",
-    "metadata":"Sponsoring Career Showcase is an excellent  way to maximize your company's exposure, gain visibility on campus with UF candidates and support the University of Florida.",
-    "keyword":"Sponsor showcase, sponsor, become a sponsor, becomeasponsor, Career Showcase, Showcase, sponsor Career Showcase, register for Career Showcase, register, cost"
-   
-  },
-  {
-    "pagename":"showcasebasics",
-    "metadata":"Here we cover each day's information, registration information & amenities, payment options, event parking and shipping.",
-    "keyword":"Career Showcase basics, showcasebasics, policies, parking, shipping, payment options, cost, shipping, cancellations, refunds, registration, registration information, no show, space usage, register, Showcase"
-  },
-  {
-    "pagename":"services",
-    "metadata":"We have a variety of on-campus and virtual service options, free job postings, and one of the largest career fairs in the Southeast.",
-    "keyword":"services, info sessions, on-campus interviews, on campus interviews, job postings, virtual recruiting, consultation, career fairs, Gator CareerLink, GCL"
-    
-  },
-  {
-    "pagename":"careerfairs",
-    "metadata":"From smaller, industry specific career fairs to Career Showcase, there’s a fair that is a perfect fit for your organization’s recruiting needs.",
-    "keyword":"career fairs, careerfairs, Career Showcase, Part Time Job Fair, Education, Majors and Minors Fair, Summer Job Fair, Virtual Fairs, Graduate and Professional Schools Fair, Startup Job and Internship Fair, Network with Recruiters in Education"
-   
-  },
-  {
-    "pagename":"infosessions",
-    "metadata":"Information sessions are a great way to promote your organization's opportunities, history, culture, structure and employee benefits in order to engage current or future applicants.",
-    "keyword":"info sessions, infosessions, information sessions, types of info sessions, room requests, catering, costs, room availability"
-  },
-   {
-    "pagename":"jobpostings",
-    "metadata":"Utilize Gator CareerLink to post jobs. GCL is the University of Florida's online job database that connects employers to UF candidates.",
-    "keyword":"job postings, jobpostings, Gator CareerLink, GCL, connect, login, log in, account, recruiting, services, register, career fairs, career, careers, employers"
-  },  
-    {
-    "pagename":"oncampusinterviews",
-    "metadata":"On-campus interviews help you identify candidates early, access diverse applicants and increase your organization's visibility.",
-    "keyword":"on-campus interviews, oncampusinterviews, on campus interviews, set up, Gator CareerLink, services, GCL, schedule, scheduling"
-  },  
-     {
-    "pagename":"virtualrecruiting",
-    "metadata":"We have the technology for you to host your info session or even interviews virtually.  Find out how you can connect with Gators from anywhere in the world.",
-    "keyword":"virtual recruiting, virtualrecruiting, technology, recruiting, info sessions, information sessions, interviews, virtual interviews, on-campus interviews"
-  },  
-    {
-    "pagename":"employeruniversity",
-    "metadata":"Employer University is the Career Resource Center’s employer education program.",
-    "keyword":"Employer University, employeruniversity, employer education, education, webinars, recruiting policies, student organizations, college partners, University of Florida, Employer Retreat, best practices"
-  },  
-     {
-    "pagename":"employerretreat",
-    "metadata":"As a recruiter you want to bring the best and brightest talent to your organization. Our retreat will give you the tools to develop and grow an innovative recruitment strategy for optimal success. All employers are invited.",
-    "keyword":"Employer Retreat, employer retreat, retreat, recruiting, education, student organizations, services, partner, sponsor, best practices"
-  },  
-     {
-    "pagename":"employertoolkit",
-    "metadata":"Our toolkit will provide you with resources to help you recruit at UF.",
-    "keyword":"employer toolkit, employertoolkit, recruiting guide, policies, procedures, Gator CareerLink, GCL, colleges and faculty, making an offer, student organizations"
-  },  
-    {
-	
-    "pagename":"gatorcareerlink",
-	
-    "metadata":"Connect to thousands of UF candidates by signing up for a Gator CareerLink account.",
-    "keyword":"Gator CareerLink, GCL, employers GCL, login, about Gator CareerLink, job postings, Symplicity, NACELink, services, job postings, info sessions, on-campus,interviews, on campus interviews, log in"
-  },  
-     {
-    "pagename":"buildyourprofile",
-    "metadata":"Learn how to optimize your Gator CareerLink to attract talented UF candidates",
-    "keyword":"build your profile, Gator CareerLink, Tools, GCL, candidates, optimize, resources"
-  },  
-     {
-    "pagename":"increaseyourvisibility",
-    "metadata":"Learn how to leverage your on-campus recruitment investment by effectively branding your organization.",
-    "keyword":"campus exposure, branding, recruiting, student organizations, partner, sponsor, campus branding, increase your visibility"
-  },  
-     {
-    "pagename":"partnerwithus",
+       "pagename":"instagram@crc",
+    "pageurl":"http://instagram.com/ufcrc",
     "metadata":"The Career Resource Center’s Partner Program offers an opportunity for organizations to demonstrate their commitment and financial support to the University of Florida.",
     "keyword":"sponsor, partner, financial support, branding, campus branding, partner with us, partner with the crc, sponsor the crc"
   },  
      {
-    "pagename":"employer2student education",
+          "pagename":"youtube@crc",
+    "pageurl":"https://www.youtube.com/channel/UCrvGxbz2LWOKWChUq9T_DjQ",
     "metadata":"Employers can participate in a variety of career development programs that will help students examine strategies and factors that affect career development and decision-making.",
     "keyword":"career development, campus branding, workshop presentations, employer2student, employer to student"
   },  
     {
-    "pagename":"contact",
+         "pagename":"google+@crc",
+    "pageurl":"https://plus.google.com/u/0/+ufcrc/posts",
     "metadata":"Do you have questions about recruiting at the University of Florida or our services?",
     "keyword":"contact, consultation, questions, services, Gator CareerLink"
   }

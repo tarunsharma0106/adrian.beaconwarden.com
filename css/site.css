@@ -37,3 +37,42 @@ float: left;
         width: 100%;
     }
 }
+
+
+#cssSlider {
+  width: 1600;
+	height: 600px;
+	overflow: hidden;
+	border: 1px solid #f6f;
+}
+
+#sliderImages {
+	width : 8000px;
+	height: 600px;
+	overflow: hidden;
+	
+	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+	animation: slide 16s infinite;
+	-moz-animation: slide 16s infinite;
+	-webkit-animation: slide 16s infinite;
+	-o-animation: slide 16s infinite;
+}
+
+#sliderImages img {
+	float: left;
+}
+
+
+
+
+
+@-webkit-keyframes slide{
+	0%{margin-left: 0px;}
+	10%{margin-left: 0px;}
+	20%{margin-left: -1600px;}
+	30%{margin-left: -1600px;}
+	40%{margin-left: -3200px;}
+	50%{margin-left: -3200px;}
+	
+}
+

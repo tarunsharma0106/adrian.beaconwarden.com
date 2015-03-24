@@ -2,7 +2,7 @@
 <html ng-app=pageController>
 <head>
 <meta charset="UTF-8">
-<title>Title of the document</title>
+<title>my crc . adrian</title>
 
   
       <link rel="stylesheet" href="css/ng.css">
@@ -47,7 +47,7 @@
 			<ul class="pagelist" ng-show="squery"  style="width:80%; margin:0px; padding:0px;">
 			
 			<li ng-animate="\'animate\'" class="page cf" ng-repeat="item in pages | filter: squery | orderBy: pageOrder:direction">
-			  <a href="employers/{{item.pagename}}.php">
+			  <a href="{{item.pageurl}}">
 				
 				<div class="info">
 				  <h2>{{item.pagename}}</h2>
@@ -61,35 +61,10 @@
 				<div class="ng" >
             <h1 style="color:#000; text-shadow: 0px 0px #000;">Popular post</h1>
 		<ul class="pagelist"  style="width:80%; margin:0px; padding:0px;" >
-		    	<li ng-animate="\'animate\'" class="page cf" >
-			  <a href="{{pages[6].pagename}}.php">
-				
-				<div class="info" ng-controller="bctrl">
-				  <h2>{{items[0].p}}</h2>
-				  <h3>{{items[0].h2}}</h3>
-				</div>
-			  </a>
-            </li> 
-			<li ng-animate="\'animate\'" class="page cf" >
-			  <a href="{{pages[6].pagename}}.php">
-				
-				<div class="info">
-				  <h2>{{pages[6].pagename}}</h2>
-				  <h3>{{pages[6].metadata}}</h3>
-				</div>
-			  </a>
-            </li> 
+		    	
+		
             <li ng-animate="\'animate\'" class="page cf" >
-			    <a href="{{pages[1].pagename}}.php">
-				
-				<div class="info">
-				  <h2>{{pages[1].pagename}}</h2>
-				  <h3>{{pages[1].metadata}}</h3>
-				</div>
-			  </a>
-            </li> 
-            <li ng-animate="\'animate\'" class="page cf" >
-			 <a href="{{pages[2].pagename}}.php">
+			    <a href="{{pages[2].pageurl}}">
 				
 				<div class="info">
 				  <h2>{{pages[2].pagename}}</h2>
@@ -98,11 +73,20 @@
 			  </a>
             </li> 
             <li ng-animate="\'animate\'" class="page cf" >
-			        <a href="{{pages[3].pagename}}.php">
+			 <a href="{{pages[3].pageurl}}">
 				
 				<div class="info">
 				  <h2>{{pages[3].pagename}}</h2>
-				  <h3>{{pages[1].metadata}}</h3>
+				  <h3>{{pages[3].metadata}}</h3>
+				</div>
+			  </a>
+            </li> 
+            <li ng-animate="\'animate\'" class="page cf" >
+			        <a href="{{pages[4].pageurl}}">
+				
+				<div class="info">
+				  <h2>{{pages[4].pagename}}</h2>
+				  <h3>{{pages[4].metadata}}</h3>
 				</div>
 			  </a>
             </li> 
@@ -121,34 +105,22 @@
 		<ul class="pagelist"  style="width:80%;  margin:0px; padding:0px;">
 			<li ng-animate="\'animate\'" class="page cf" >
                 
-			  <a href="{{pages[6].pagename}}.php">
+			  <a href="{{pages[0].pageurl}}">
 				
 				<div class="info">
-				  <h2>{{pages[6].pagename}}</h2>
-				  <h3>{{pages[6].metadata}}</h3>
+				  <h2>{{pages[0].pagename}}</h2>
+				  <h3>{{pages[0].metadata}}</h3>
 				</div>
 			  </a>
-                <a href="{{pages[1].pagename}}.php">
+                <a href="{{pages[1].pageurl}}">
 				
 				<div class="info">
 				  <h2>{{pages[1].pagename}}</h2>
 				  <h3>{{pages[1].metadata}}</h3>
 				</div>
 			  </a>
-                  <a href="{{pages[2].pagename}}.php">
-				
-				<div class="info">
-				  <h2>{{pages[2].pagename}}</h2>
-				  <h3>{{pages[2].metadata}}</h3>
-				</div>
-			  </a>
-                  <a href="{{pages[3].pagename}}.php">
-				
-				<div class="info">
-				  <h2>{{pages[3].pagename}}</h2>
-				  <h3>{{pages[1].metadata}}</h3>
-				</div>
-			  </a>
+             
+              
 			</li>
 			</ul>
 						
@@ -171,17 +143,25 @@
   
 
   
-
+<div id="cssSlider">
+  <div id="sliderImages">
+		<img id="si_1" src="http://beaconwardencom.ipage.com/imgs/1.jpg" alt="" />
+		<img id="si_2" src="http://beaconwardencom.ipage.com/imgs/2.jpg" alt="" />
+		<img id="si_3" src="http://beaconwardencom.ipage.com/imgs/3.jpg" alt="" />
+		
+		<div style="clear:left;"></div>
+	</div>
+</div>
   
   
 
   
   
  <footer> 
-     <div class="fa"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</div>
-       <div class="fb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</div>
-             <div class="fc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</div>
-                   <div class="fd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. Adipisci ullam nam qui illum debitis sit ad in delectus, repudiandae non dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit veritatis, facere aliquid itaque tempore consequatur nihil sint enim aliquam id saepe magnam totam repellat placeat a fugit nulla molestias voluptas.</div>
+     <div class="fa"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. </div>
+       <div class="fb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. </div>
+             <div class="fc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. </div>
+                   <div class="fd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur, nesciunt dicta, esse rem ducimus itaque quis. </div>
      
      
     </footer>
