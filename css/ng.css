@@ -1,0 +1,479 @@
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
+/* @override 
+  http://planetoftheweb.com/_/css/styles.css */
+/* Reset Styles */
+.ng {
+  /* Base Styles */
+  /* Search Styles */
+  /* page List Styles */
+}
+.ng html,
+.ng body,
+.ng div,
+.ng span,
+.ng applet,
+.ng object,
+.ng iframe,
+.ng h1,
+.ng h2,
+.ng h3,
+.ng h4,
+.ng h5,
+.ng h6,
+.ng p,
+.ng blockquote,
+.ng pre,
+.ng a,
+.ng abbr,
+.ng acronym,
+.ng address,
+.ng big,
+.ng cite,
+.ng code,
+.ng del,
+.ng dfn,
+.ng em,
+.ng img,
+.ng ins,
+.ng kbd,
+.ng q,
+.ng s,
+.ng samp,
+.ng small,
+.ng strike,
+.ng strong,
+.ng sub,
+.ng sup,
+.ng tt,
+.ng var,
+.ng b,
+.ng u,
+.ng i,
+.ng center,
+.ng dl,
+.ng dt,
+.ng dd,
+.ng ol,
+.ng ul,
+.ng li,
+.ng fieldset,
+.ng form,
+.ng label,
+.ng legend,
+.ng table,
+.ng caption,
+.ng tbody,
+.ng tfoot,
+.ng thead,
+.ng tr,
+.ng th,
+.ng td,
+.ng article,
+.ng aside,
+.ng canvas,
+.ng details,
+.ng embed,
+.ng figure,
+.ng figcaption,
+.ng footer,
+.ng header,
+.ng hgroup,
+.ng menu,
+.ng nav,
+.ng output,
+.ng ruby,
+.ng section,
+.ng summary,
+.ng time,
+.ng mark,
+.ng audio,
+.ng video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+.ng html {
+  line-height: 1;
+}
+.ng ol,
+.ng ul {
+  list-style: none;
+}
+.ng table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.ng caption,
+.ng th,
+.ng td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+.ng q,
+.ng blockquote {
+  quotes: none;
+}
+.ng q:before,
+.ng q:after,
+.ng blockquote:before,
+.ng blockquote:after {
+  content: "";
+  content: none;
+}
+.ng a img {
+  border: none;
+}
+.ng article,
+.ng aside,
+.ng details,
+.ng figcaption,
+.ng figure,
+.ng footer,
+.ng header,
+.ng hgroup,
+.ng menu,
+.ng nav,
+.ng section,
+.ng summary {
+  display: block;
+}
+.ng * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ng .cf:before,
+.ng .cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.ng .cf:after {
+  clear: both;
+}
+
+.ng body {
+  font-family: Merriweather, serif;
+  font-size: 1rem;
+  line-height: 160%;
+  *zoom: 1;
+}
+.ng h1,
+.ng h2,
+.ng h3,
+.ng h4,
+.ng h5,
+.ng h6 {
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+  color: #475b62;
+  text-shadow: 1px 1px #ffffff;
+}
+.ng a {
+  color: #145266;
+  font-family: Bree Serif, serif;
+}
+.ng h1 {
+  color: #000;
+  font-size: 2.2rem;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+.ng h2 {
+  font-size: 1.5rem;
+  line-height: 90%;
+  color: #f37021;
+}
+.ng h3 {
+  margin-top: 0;
+  color: #252525;
+  line-height: 110%;
+  margin-bottom: 5px;
+}
+.ng p {
+  line-height: 1.3rem;
+  color: #475B62;
+  margin-bottom: 10px;
+  font-family: 'Merriweather';
+}
+.ng a.small {
+  line-height: 100%;
+  font-size: .9rem;
+}
+
+.ng .pagelist {
+  background: #fff;
+
+ 
+  
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 0 0 20px 20px;
+  opacity: .95;
+  z-index: 10;
+}
+.ng .pagelist ul {
+  margin: 0;
+  padding: 0;
+  background: #FDF600;
+}
+.ng .pagelist li {
+  margin: 0;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px dotted black;
+  opacity: .9;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.ng .pagelist a {
+  display: block;
+  text-decoration: none;
+}
+.ng .pagelist li:hover {
+  background: #fff;
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.05);
+  
+}
+
+.ng .page info {
+  display: block;
+  float: left;
+  padding-left: 120px !important;
+}
+.ng .page:last-child {
+  border-bottom: none;
+}
+.ng .pageinfo {
+  font-size: 1.1em;
+  line-height: 160%;
+  background: #EEE8D5;
+  color: #0F4150;
+  width: 90%;
+   max-width: 620px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  z-index: 20;
+}
+.ng .pageinfo h1 {
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+
+.ng .page.ng-enter.ng-enter-active,
+.ng .page.ng-leave {
+  opacity: 1;
+  height: 80px;
+  overflow: hidden;
+}
+.ng .page.ng-leave.ng-leave-active,
+.ng .page.ng-enter {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+
+/* default screen*/
+
+#header {
+  background: #f37021;
+  height: 40px;
+}
+#header > div {
+  position: absolute;
+  top: 0;
+  background: #f37021;
+  height:40px;
+  overflow: hidden;
+}
+#header #date {
+   padding-left:5px;
+  left: 0px;
+  width: 250px;
+}
+#header #icon {
+right: 200px;
+width: 150px;
+  padding: 7px 0 10px 0;
+  text-align:center;
+}
+#header #icon a {
+ font-size: 1.7em; line-height: 40px;
+}
+
+
+
+#header #search {
+
+  right: 0px;
+  width: 200px;
+  z-index: 1;
+  background: #E9E6E1;
+  
+ 
+}
+#header #search input {
+
+  height: 40px;
+  border: none;
+  background: none;
+}
+
+
+/*  full screen*/
+#header #search.expand {
+  right: 0 !important;
+  width: 100%;
+ min-height:100%;
+  z-index:9999;
+  position:absolute;
+height:auto;
+}
+
+
+#header #search.closing {
+ position: absolute;
+  top: 0;
+  background: #f37021;
+  height:40px;
+  overflow: hidden;
+  border:1px solid #f37021;
+  border-radius: 3px ;
+  
+
+  
+  right: 0;
+  width: 200px;
+  z-index: 1;
+  background: #ddd;
+  
+}
+
+
+
+
+
+
+#header #search.expand, #header #search.closing, #header #search.expand * {
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 3.5s;
+  transition-duration: 1s;
+   
+}
+#header #search.expand input {
+  height: 100px;
+  width:80%;
+  font: bold 36px/100% Arial, "Helvetica Neue", Helvetica, Verdana, sans-serif;
+  text-align:center;
+  margin: 10px auto 10px auto;
+}
+#header #search.expand p {
+  font: normal 24px/36px Arial, "Helvetica Neue", Helvetica, Verdana, sans-serif;
+}
+
+ /* responsive */
+.ng { width: 33%;
+padding: 0 0 6em;
+float:left;
+
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+  #header {
+    height: auto;
+  }
+  #header #search, #header #search input, #header #icon, #header #date {
+    position: static;
+    width: 100%;
+    margin-bottom: 10px;
+	text-align:center;
+       
+  }
+  
+  #header #icon {
+    margin-top: 20px;
+  }
+  
+  .ng{  box-sizing:border-box;
+
+		float: none;
+		width: 100%;
+		padding: 0 0 2em;
+	}
+	
+	.ng ul { margin-left:100px; width:100%;text-align:center; border: 1px green solid;}
+ 
+  
+}
+
+#header #search.closings{
+
+position: static;
+    width: 100%;
+    margin-bottom: 10px;
+	text-align:center;
+
+} 
+
+
+
+#close{
+  cursor:pointer;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-name: breathe;
+    -webkit-animation-duration: 1700ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+
+
+
+
+}
+@-webkit-keyframes breathe {
+    0% { opacity: .5;  color:#f37021;}
+    100% { opacity: 1; color:#f37000;}
+}
+
+.dropdown-menu{
+margin-top:-40px;
+}
+
+
+.info h2, .info h3 , .ng h1{
+
+text-align: left; 
+
+}
+
+input:focus { 
+    outline: 0;
+	
+}
+#icon i{
+color: white;
+
+}
+
