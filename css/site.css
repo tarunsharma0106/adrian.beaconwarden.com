@@ -1,0 +1,39 @@
+footer{
+
+position: fixed;
+    width:100%;
+    bottom:0px;
+    
+}
+
+footer>div{
+float: left;
+ width: 25%;
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+    footer>div {  
+        float: none;
+        background-color: lightblue;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    footer>div {  
+       
+        background-color: lightcyan;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    footer {  
+        float: none;
+        background-color: lightgoldenrodyellow;
+        width: 100%;
+    }
+}
