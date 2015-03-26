@@ -116,7 +116,7 @@ function centerHeader() {
 
   }
   
- // detect windows size 
+ // detect windows size lll
   $(window).resize(function() {
     centerHeader();
   });
